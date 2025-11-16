@@ -1,0 +1,23 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "variableblur"
+  ],
+  "ios": {
+    "iosModuleName": "VariableBlur"
+  },
+  "android": {
+    "androidNamespace": [
+      "variableblur"
+    ],
+    "androidCxxLibName": "VariableBlur"
+  },
+  "autolinking": {
+    "VariableBlur": {
+      "swift": "HybridVariableBlur"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
